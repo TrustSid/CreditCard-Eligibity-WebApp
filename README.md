@@ -16,8 +16,8 @@ A web-based solution to determine an individual's eligibility for a credit card 
 ## Build the front-end image
 - docker build -t my-frontend-image .
 ## Build the back-end image
-docker build -t my-backend-image .
-- Note:** Build images only after selecting the right directories in CMD
+- docker build -t my-backend-image .
+- Note: Build images only after selecting the right directories in CMD
 ## Run the front-end container
 - docker run -d -p 8888:5000 my-frontend-image
 ## Run the back-end container
