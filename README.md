@@ -23,7 +23,7 @@ docker build -t my-backend-image .
 ## Run the back-end container
 - docker run -d -p 5000:5000 my-backend-image
 
-- Access the application by opening `http://localhost:8080` in your web browser.
+- Access the application by opening `http://localhost:5000` in your web browser.
 
 
   
