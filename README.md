@@ -15,7 +15,7 @@ This project is a web application that helps users check their eligibility for a
 3. Build the Docker images: Dockerfile (main directory),  Dockerfile (in templates directory)
 ## Build the front-end image
 - docker build -t my-frontend-image .
-## Build the back-end image**
+## Build the back-end image
 docker build -t my-backend-image .
 - Note:** Build images only after selecting the right directories in CMD
 ## Run the front-end container
