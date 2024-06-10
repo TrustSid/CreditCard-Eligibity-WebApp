@@ -13,16 +13,17 @@ This project is a web application that helps users check their eligibility for a
 1. Clone the repository:
 2. Navigate to the project directory:
 3. Build the Docker images: Dockerfile (main directory),  Dockerfile (in templates directory)
-**Build the front-end image**
+## Build the front-end image
 - docker build -t my-frontend-image .
-**Build the back-end image**
-- docker build -t my-backend-image .
-**Note:** Build images only after selecting the right directories in CMD
-**Run the front-end container**
+## Build the back-end image**
+docker build -t my-backend-image .
+- Note:** Build images only after selecting the right directories in CMD
+## Run the front-end container
 - docker run -d -p 8888:5000 my-frontend-image
-**Run the back-end container**
+## Run the back-end container
 - docker run -d -p 5000:5000 my-backend-image
-5. Access the application by opening `http://localhost:8080` in your web browser.
+
+- Access the application by opening `http://localhost:8080` in your web browser.
 
 
   
