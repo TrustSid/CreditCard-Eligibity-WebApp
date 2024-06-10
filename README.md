@@ -25,7 +25,7 @@ A web-based solution to determine an individual's eligibility for a credit card 
 
 - Access the application by opening `http://localhost:5000` in your web browser.
 
-### Accessing Docker Images
+## Accessing Docker Images
 
 The Docker images for this application have been pushed to Docker Hub and can be accessed by project members and contributors. To pull the images, run the following commands:
 -docker pull krishsidusa/credit_card_frontend
