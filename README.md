@@ -1,6 +1,6 @@
 # Credit Card Eligibility Application
 
-This project is a web application that helps users check their eligibility for a credit card from a bank. It consists of a front-end interface built with HTML, CSS, and JavaScript, and a back-end component built using Python and Flask.
+A web-based solution to determine an individual's eligibility for a credit card from a bank. Built with a user-friendly front-end (HTML, CSS, JavaScript) and a robust back-end (Python, Flask). The application leverages machine learning models to analyze user data and provide a clear result on their credit card eligibility. Containerized using Docker for easy deployment and portability across environments.
 
 ## Features
 
